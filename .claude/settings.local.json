@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:firebase.google.com)",
+      "Bash(npx expo *)",
+      "Bash(npm uninstall *)",
+      "PowerShell(npm install --save-dev sharp)",
+      "Bash(timeout 60 bash -c 'until curl -sf http://localhost:8082 >/dev/null; do sleep 2; done')",
+      "Bash(npx --yes playwright --version)"
+    ]
+  }
+}
