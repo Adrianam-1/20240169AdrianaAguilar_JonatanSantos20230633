@@ -43,6 +43,7 @@
   "devDependencies": {
     "eslint": "^9.0.0",
     "eslint-config-expo": "~57.0.2",
+    "react-native-dotenv": "^4.1.1",
     "sharp": "^0.35.4"
   }
 }
